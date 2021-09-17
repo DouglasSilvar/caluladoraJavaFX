@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="344.0" prefWidth="342.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
+   <children>
+      <Label layoutX="23.0" layoutY="14.0" text="Calculator">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelResult" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="28.0" layoutY="54.0" prefHeight="38.0" prefWidth="290.0" text="0" textOverrun="CLIP">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Button fx:id="btSeven" layoutX="28.0" layoutY="105.0" mnemonicParsing="false" onAction="#onBtSevenAction" prefHeight="38.0" prefWidth="45.0" text="7" />
+      <Button fx:id="btEight" layoutX="87.0" layoutY="105.0" mnemonicParsing="false" onAction="#onBtEightAction" prefHeight="38.0" prefWidth="45.0" text="8" />
+      <Button fx:id="btNine" layoutX="149.0" layoutY="105.0" mnemonicParsing="false" onAction="#onBtNineAction" prefHeight="38.0" prefWidth="45.0" text="9" />
+      <Button fx:id="btFour" layoutX="27.0" layoutY="158.0" mnemonicParsing="false" onAction="#onBtFourAction" prefHeight="38.0" prefWidth="45.0" text="4" />
+      <Button fx:id="btFive" layoutX="86.0" layoutY="158.0" mnemonicParsing="false" onAction="#onBtFiveAction" prefHeight="38.0" prefWidth="45.0" text="5" />
+      <Button fx:id="btSix" layoutX="148.0" layoutY="158.0" mnemonicParsing="false" onAction="#onBtSixAction" prefHeight="38.0" prefWidth="45.0" text="6" />
+      <Button fx:id="btOne" layoutX="27.0" layoutY="214.0" mnemonicParsing="false" onAction="#onBtOneAction" prefHeight="38.0" prefWidth="45.0" text="1" />
+      <Button fx:id="btTwo" layoutX="86.0" layoutY="214.0" mnemonicParsing="false" onAction="#onBtTwoAction" prefHeight="38.0" prefWidth="45.0" text="2" />
+      <Button fx:id="btThree" layoutX="148.0" layoutY="214.0" mnemonicParsing="false" onAction="#onBtThreeAction" prefHeight="38.0" prefWidth="45.0" text="3" />
+      <Button fx:id="btMinus" layoutX="27.0" layoutY="271.0" mnemonicParsing="false" onAction="#onBtMinusAction" prefHeight="38.0" prefWidth="45.0" text="+/-">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="btZero" layoutX="86.0" layoutY="271.0" mnemonicParsing="false" onAction="#onBtZeroAction" prefHeight="38.0" prefWidth="45.0" text="0" />
+      <Button fx:id="btPoint" layoutX="148.0" layoutY="271.0" mnemonicParsing="false" onAction="#onBtPointAction" prefHeight="38.0" prefWidth="45.0" text=",">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="btSum" layoutX="211.0" layoutY="105.0" mnemonicParsing="false" onAction="#onBtSumAction" prefHeight="38.0" prefWidth="45.0" text="+">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="btSub" layoutX="210.0" layoutY="158.0" mnemonicParsing="false" onAction="#onBtSubAction" prefHeight="38.0" prefWidth="45.0" text="-">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="btMult" layoutX="210.0" layoutY="214.0" mnemonicParsing="false" onAction="#onBtMultAction" prefHeight="38.0" prefWidth="45.0" text="x">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="btDiv" layoutX="210.0" layoutY="271.0" mnemonicParsing="false" onAction="#onBtDivtAction" prefHeight="38.0" prefWidth="45.0" text="÷">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="btC" layoutX="273.0" layoutY="105.0" mnemonicParsing="false" onAction="#onBtCAction" prefHeight="38.0" prefWidth="45.0" text="C">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="btPercent" layoutX="272.0" layoutY="158.0" mnemonicParsing="false" onAction="#onBtPercentAction" prefHeight="38.0" prefWidth="45.0" text="\%">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="btEquals" layoutX="272.0" layoutY="214.0" mnemonicParsing="false" onAction="#onBtEqualsAction" prefHeight="95.0" prefWidth="45.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
